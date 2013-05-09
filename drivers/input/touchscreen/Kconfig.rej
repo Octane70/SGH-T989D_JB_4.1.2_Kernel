@@ -1,0 +1,13 @@
+--- drivers/input/touchscreen/Kconfig	2012-08-14 10:52:52.000000000 +0200
++++ drivers/input/touchscreen/Kconfig	2012-09-16 18:26:31.362081081 +0200
+@@ -780,4 +780,10 @@
+         To compile this driver as a module, choose M here: the
+         module will be called atmel_mxt224E.
+ 
++config TOUCHKEY_BLN
++    bool "BLN Support"
++    depends on TOUCHSCREEN_ATMEL_MXT224E
++    help
++	BLN support.
++
+ endif

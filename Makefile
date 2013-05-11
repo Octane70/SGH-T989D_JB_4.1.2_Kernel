@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 0
 SUBLEVEL = 31
-EXTRAVERSION = _Stiletto_S2X_Beta_v2
+EXTRAVERSION = _Stiletto_S2X_Beta_v3
 NAME = Sneaky Weasel
 
 # *DOCUMENTATION*
